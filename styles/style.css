@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: black;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.banner {
+    margin: 100px 10rem 0;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .content-box {
+    width: 100%;
+}
+
+.banner .content-box h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.banner .content-box p {
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.banner .content-box span {
+    color: aqua;
+}
+
+.banner .content-box .download-btn {
+    background-color: aqua;
+    color: black;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.banner .img-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.banner .img-box img {
+    border-radius: 50%;
+}
