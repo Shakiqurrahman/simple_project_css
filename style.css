@@ -2,8 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: black;
     color: white;
+    margin: 0 10rem ;
+    background-image: linear-gradient(to right, black, rgb(32, 25, 25));
 }
 
 * {
@@ -12,17 +13,58 @@ body {
     list-style: none;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 ;
+    align-items: center;
+}
+
+.header .nav_links {
+    display: flex;
+    gap: 40px;
+}
+
+.header .nav_links a{
+    color: white;
+    font-weight: 500;
+}
+
+.header .nav_links a#active {
+    color: aqua;
+}
+
+.header .nav_links a:hover {
+    color: aqua;
+    transition: .3s linear;
+}
+
+.header .contact-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.header .contact-btn:hover {
+    background-color: aqua;
+    transition: .3s linear;
+}
+
 .title {
     text-align: center;
     color: white;
 }
 
 .banner {
-    margin: 100px 10rem 0;
     display: flex;
     gap: 100px;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 
 .banner .content-box {
@@ -52,6 +94,11 @@ body {
     font-weight: bold;
     border: none;
     border-radius: 8px;
+}
+
+.banner .content-box .download-btn:hover {
+    background-color: white;
+    transition: .3s ;
 }
 
 .banner .img-box {
