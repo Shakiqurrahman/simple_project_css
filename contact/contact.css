@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0 10rem ;
+    background-image: linear-gradient(to right, black, rgb(32, 25, 25));
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 ;
+}
+
+.header .nav_links {
+    display: flex;
+    gap: 40px;
+}
+
+.header .nav_links a{
+    color: white;
+    font-weight: 500;
+}
+
+.header .nav_links a#active {
+    color: aqua;
+}
+
+.header .nav_links a:hover {
+    color: aqua;
+    transition: .3s linear;
+}
+
+.header .contact-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+.header .contact-btn:hover {
+    background-color: aqua;
+    transition: .3s linear;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.form {
+    background-color:#1f1f1f ;
+    padding: 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 60px auto;
+}
+
+.form .form-title {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.form .form-title .blue-text {
+    color: blue;
+}
+
+.form input, .form textarea {
+    padding: 15px 25px;
+    background: gray;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    color: black;
+}
+
+.form .submit-btn {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
