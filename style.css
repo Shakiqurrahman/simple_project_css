@@ -129,7 +129,6 @@ body {
 }
 
 /* responsive for medium devices - md  */
-/* @media (min-width:577px) and (max-width: 768px) { */
 @media (576px <= width <= 768px){
     body {
         margin : 0 16px;
