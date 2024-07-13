@@ -103,3 +103,44 @@ body {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* responsive for small devices -sm  */
+/* @media (max-width: 576px) { */
+@media (width <= 576px) {
+    body {
+        margin : 0 16px;
+    }
+    .banner {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .header .nav_links{
+        display: none;
+    }
+    .form {
+        padding: 20px;
+    }
+    .form .form-title{
+        font-size: 20px;
+    }
+}
+
+/* responsive for medium devices - md  */
+@media (576px <= width <= 768px){
+    body {
+        margin : 0 16px;
+    }
+    .header .nav_links{
+        display: none;
+    }
+   
+}
+
+/* responsive for medium devices - lg  */
+/* @media (min-width:768px) and (max-width: 1000px) { */
+@media (768px <= width <= 1000px) {
+    body {
+        margin: 0 16px;
+    }
+}
+
