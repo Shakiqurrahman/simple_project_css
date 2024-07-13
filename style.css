@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    margin: 0 10rem ;
+    margin: 0 10rem;
     background-image: linear-gradient(to right, black, rgb(32, 25, 25));
 }
 
@@ -111,3 +111,43 @@ body {
 .banner .img-box img {
     border-radius: 50%;
 }
+
+
+/* responsive for small devices -sm  */
+/* @media (max-width: 576px) { */
+@media (width <= 576px) {
+    body {
+        margin : 0 16px;
+    }
+    .banner {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .header .nav_links{
+        display: none;
+    }
+}
+
+/* responsive for medium devices - md  */
+/* @media (min-width:577px) and (max-width: 768px) { */
+@media (576px <= width <= 768px){
+    body {
+        margin : 0 16px;
+    }
+    .banner {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .header .nav_links{
+        display: none;
+    }
+}
+
+/* responsive for medium devices - lg  */
+/* @media (min-width:768px) and (max-width: 1000px) { */
+@media (768px <= width <= 1000px) {
+    body {
+        margin: 0 16px;
+    }
+}
+
