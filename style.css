@@ -126,6 +126,9 @@ body {
     .header .nav_links{
         display: none;
     }
+    .banner .img-box img{
+        width: 55%;
+    }
 }
 
 /* responsive for medium devices - md  */
@@ -140,6 +143,7 @@ body {
     .header .nav_links{
         display: none;
     }
+   
 }
 
 /* responsive for medium devices - lg  */
